@@ -1,48 +1,11 @@
-# gdk-mws-2018-challenge-01-ghibli-studio
+# STATIC
 
-> 👾 Google Developer Kejar Mobile Web Specialist 2018 - Challenge 01 - Playing with Ghibli Studio Public API
+**This directory is not required, you can delete it if you don't want to use it.**
 
-Kalau kata orang **"Bisa karena terbiasa"**, maka dari itu kami bersama-sama teman-teman alumni Google Developer Kejar untuk Mobile Web Specialist 2018 ingin tetap membiasakan diri mengerjakan berbagai hal keren yang tidak bisa kami kerjakan di kantor karena satu dan lain hal.
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
+Thus you'd want to delete this README.md before deploying to production.
 
-Repo ini merupakan kumpulan dari hasil karya teman-teman dalam menerima **Challenge 01**, yakni membuat sebuah website berdasarkan Public API [https://ghibliapi.herokuapp.com/](https://ghibliapi.herokuapp.com/). Challenge ini sendiri ditujukan untuk proses belajar bersama-sama, kalaupun ada berbagai kekurangan di dalamnya harap dimaklumi dan silahkan open issue di repository terkait demi kemajuan bersama-sama.
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-## Live Webpage
-
-**UNDER DEVELOPMENT**
-
-## Bagaimana menambahkan file kalian?
-
-+ Fork repo ini, kalau belum bisa cara fork bisa baca artikel https://help.github.com/articles/fork-a-repo/
-+ Buat `branch` dengan nama kalian, misal `participants/IrfanMaulana`. Baca artikel ini https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
-+ Setelah membuat branch tersebut, kalian akan bekerja di branch itu dengan langkah kurang lebih seperti pada poin selanjutnya
-+ Pastikan kalian membuat folder dengan nama kalian terlebih dahulu, seperti sudah saya contohkan dengan folder `IrfanMaulana`
-+ Tiap folder paling tidak memuat satu file `readme.md` yang diisi dengan **nama** dan **email** kalian masing-masing.
-+ Jika telah selesai, buatlah `pull request` ke repository ini ke branch `master`. Baca artikel https://help.github.com/articles/creating-a-pull-request/ 
-+ Pastikan di `pull request` tersebut kalian sebutkan nama kalian di judul pull request-nya.
-+ **Selamat Belajar!!!**
-
-## Menambahkan menggunakan `submodule`
-
-+ Buat repository baru di akun kalian, dan tambahkan file disana
-+ Tambahkan submodule di repo ini dengan cara:
-
-```shell
-# Run
-git submodule add [URL_REPOSITORY] FOLDER_NAME
-
-# Example
-# should using https:// instead of git:/
-git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
-
-# Update Submodule
-git submodule update --recursive
-```
-
-+ Buat pull request ke repo ini branch `master`
-
-## Jangan lupa untuk tekan ⭐ pada repository ini
-
-
---------
-
-Copyright © 2018
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
