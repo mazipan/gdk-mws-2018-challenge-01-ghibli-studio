@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const title = 'Ghibli Apps'
 const publicUrl = 'https://ghibli-apps.netlify.com/'
 
 module.exports = {
@@ -6,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,11 +17,18 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  manifest: {
+    name: title,
+    short_name: title
+  },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: {
+    color: '#f00',
+    height: '3px',
+    continuous: true
+  },
 
   /*
   ** Global CSS
@@ -39,7 +47,8 @@ module.exports = {
   */
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    '@nuxtjs/pwa'
   ],
 
   /*

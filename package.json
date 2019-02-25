@@ -13,7 +13,8 @@
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.3",
-    "@nuxtjs/bulma": "^1.2.3"
+    "@nuxtjs/bulma": "^1.2.3",
+    "@nuxtjs/pwa": "^2.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
