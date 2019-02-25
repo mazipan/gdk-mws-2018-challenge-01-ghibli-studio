@@ -1,0 +1,47 @@
+{
+	"name": "Ghibli Apps",
+	"short_name": "Ghibli",
+	"start_url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#fff",
+	"theme_color": "#000000",
+	"icons": [
+		{
+			"src": "/icons/android-icon-36x36.png",
+			"sizes": "36x36",
+			"type": "imagepng",
+			"density": "0.75"
+		},
+		{
+			"src": "/icons/android-icon-48x48.png",
+			"sizes": "48x48",
+			"type": "imagepng",
+			"density": "1.0"
+		},
+		{
+			"src": "/icons/android-icon-72x72.png",
+			"sizes": "72x72",
+			"type": "imagepng",
+			"density": "1.5"
+		},
+		{
+			"src": "/icons/android-icon-96x96.png",
+			"sizes": "96x96",
+			"type": "imagepng",
+			"density": "2.0"
+		},
+		{
+			"src": "/icons/android-icon-144x144.png",
+			"sizes": "144x144",
+			"type": "imagepng",
+			"density": "3.0"
+		},
+		{
+			"src": "/icons/android-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "imagepng",
+			"density": "4.0"
+		}
+	]
+}

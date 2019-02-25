@@ -1,0 +1,21 @@
+{
+  "name": "ghibli-apps",
+  "version": "1.0.0",
+  "description": "👾 Google Developer Kejar Mobile Web Specialist 2018 - Challenge 01 - Playing with Ghibli Studio Public APIMy unreal Nuxt.js project",
+  "author": "Irfan Maulana <github.com/mazipan>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.3",
+    "@nuxtjs/bulma": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
