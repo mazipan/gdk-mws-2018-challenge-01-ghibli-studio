@@ -2,24 +2,24 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/0e38313b948e8662a417.js",
-    "revision": "de39ad244fde16c4978f3b677fe8c110"
+    "url": "/_nuxt/42ab4ccde1ebdc3f422a.js",
+    "revision": "ab78f312038d0cab35baa075204a07af"
   },
   {
-    "url": "/_nuxt/3dc8fdaa8735250c41ad.js",
-    "revision": "8d6e5514b6182e8dfaa629527bfa88a9"
+    "url": "/_nuxt/6ca024707b946e358bfb.js",
+    "revision": "00868dea7bc1df192d56414a54bab20c"
   },
   {
-    "url": "/_nuxt/4e844b04577a8efa2150.js",
-    "revision": "4e6c8cfea406a31c16b5fb7f4d93104c"
+    "url": "/_nuxt/bb47a0fb06f714b832b1.js",
+    "revision": "b98281d776c42b33428a396bf31ea3e3"
   },
   {
-    "url": "/_nuxt/e59df29224896e2418e7.js",
-    "revision": "3306aedea320bda27ba523cce13e9b67"
+    "url": "/_nuxt/c403ac8a933c9723b39d.js",
+    "revision": "378d0bde99e7c00be4d5671a0d1ecaf6"
   },
   {
-    "url": "/_nuxt/f15d0e8dfac01bf2b8fb.js",
-    "revision": "385faeaa46b2c2400c01a145d06acb79"
+    "url": "/_nuxt/ea22d32a99d35fef4f2b.js",
+    "revision": "07099f7e1180a885379778ad72112e56"
   }
 ], {
   "cacheId": "ghibli-apps",
