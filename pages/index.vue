@@ -1,5 +1,5 @@
 <template>
-  <section class="container" style="margin: 3em auto;">
+  <section class="container">
     <div v-for="item in dataRepo" :key="item.name" class="notification is-primary">
       <div class="level">
         <div class="level-left">
@@ -21,8 +21,20 @@
               </div>
             </div>
             <div style="margin: 1em 0;">
-              <a style="margin: .5em;" alt="Github" :href="item.github_link" target="_blank" rel="noopener">Github</a>
-              <a style="margin: .5em;" alt="Demo" :href="item.demo_link" target="_blank" rel="noopener">Demo</a>
+              <a
+                style="margin: .5em;"
+                alt="Github"
+                :href="item.github_link"
+                target="_blank"
+                rel="noopener"
+              >Github</a>
+              <a
+                style="margin: .5em;"
+                alt="Demo"
+                :href="item.demo_link"
+                target="_blank"
+                rel="noopener"
+              >Demo</a>
             </div>
           </div>
         </div>
@@ -32,9 +44,10 @@
 </template>
 
 <script>
-import dataRepo from "../assets/data.js";
+import dataRepo from "@/assets/data.js";
 
 export default {
+  name: 'HomePage',
   data() {
     return {
       dataRepo
@@ -42,3 +55,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.container {
+  margin: 3em auto;
+}
+@media screen and (max-width: 640px) {
+  .container {
+    margin: 3em 1em;
+  }
+}
+</style>

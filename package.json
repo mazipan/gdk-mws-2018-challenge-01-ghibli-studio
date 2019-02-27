@@ -11,12 +11,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.3",
+    "nuxt": "^2.4.5",
     "@nuxtjs/bulma": "^1.2.3",
     "@nuxtjs/pwa": "^2.6.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "nodemon": "^1.18.10"
   }
 }

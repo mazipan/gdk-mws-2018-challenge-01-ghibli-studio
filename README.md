@@ -8,7 +8,7 @@ Repo ini merupakan kumpulan dari hasil karya teman-teman dalam menerima **Challe
 
 ## Live Webpage
 
-**UNDER DEVELOPMENT**
+[https://ghibli-apps.netlify.com/](https://ghibli-apps.netlify.com/)
 
 ## Bagaimana menambahkan file kalian?
 
@@ -17,9 +17,25 @@ Repo ini merupakan kumpulan dari hasil karya teman-teman dalam menerima **Challe
 + Setelah membuat branch tersebut, kalian akan bekerja di branch itu dengan langkah kurang lebih seperti pada poin selanjutnya
 + Pastikan kalian membuat folder dengan nama kalian terlebih dahulu, seperti sudah saya contohkan dengan folder `IrfanMaulana`
 + Tiap folder paling tidak memuat satu file `readme.md` yang diisi dengan **nama** dan **email** kalian masing-masing.
-+ Jika telah selesai, buatlah `pull request` ke repository ini ke branch `master`. Baca artikel https://help.github.com/articles/creating-a-pull-request/ 
++ Jika telah selesai, buatlah `pull request` ke repository ini ke branch `master`. Baca artikel https://help.github.com/articles/creating-a-pull-request/
 + Pastikan di `pull request` tersebut kalian sebutkan nama kalian di judul pull request-nya.
 + **Selamat Belajar!!!**
+
+## Bagaimana menambahkan karya saya ke dalam daftar?
+
++ Silahkan tambahkan di file **[assets.data.js](https://github.com/mazipan/gdk-mws-2018-challenge-01-ghibli-studio/blob/master/assets/data.js)**, dengan data struktur sebagai contoh berikut:
+
+```js
+module.exports = [
+  {
+    name: 'Irfan Maulana',
+    avatar: 'https://avatars2.githubusercontent.com/u/7221389?s=200&v=4',
+    github_link: 'https://github.com/mazipan/ghibli-fans',
+    demo_link: 'https://mazipan.github.io/ghibli-fans/',
+    technologies: ['Preact', 'Redux']
+  }
+];
+```
 
 ## Menambahkan menggunakan `submodule`
 
