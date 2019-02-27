@@ -23,7 +23,7 @@ Repo ini merupakan kumpulan dari hasil karya teman-teman dalam menerima **Challe
 
 ## Bagaimana menambahkan karya saya ke dalam daftar?
 
-+ Silahkan tambahkan di file **[assets.data.js](https://github.com/mazipan/gdk-mws-2018-challenge-01-ghibli-studio/blob/master/assets/data.js)**, dengan data struktur sebagai contoh berikut:
++ Silahkan tambahkan di file **[/assets/data.js](https://github.com/mazipan/gdk-mws-2018-challenge-01-ghibli-studio/blob/master/assets/data.js)**, dengan data struktur sebagai contoh berikut:
 
 ```js
 module.exports = [
