@@ -1,3 +1,6 @@
 [submodule "DennyPradipta"]
 	path = DennyPradipta
 	url = https://github.com/dennydap/mws-ghibli-openapi
+[submodule "IrfanMaulana"]
+	path = IrfanMaulana
+	url = https://github.com/mazipan/ghibli-fans

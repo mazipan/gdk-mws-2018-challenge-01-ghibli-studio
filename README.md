@@ -43,6 +43,7 @@ module.exports = [
 + Tambahkan submodule di repo ini dengan cara:
 
 ```shell
+
 # Run
 git submodule add [URL_REPOSITORY] FOLDER_NAME
 
@@ -50,8 +51,9 @@ git submodule add [URL_REPOSITORY] FOLDER_NAME
 # should using https:// instead of git:/
 git submodule add https://github.com/DeriKurniawan/DeriKurniawanMWS DeriKurniawan
 
-# Update Submodule
-git submodule update --recursive
+# Update All Submodule
+git submodule init
+git submodule update --remote
 ```
 
 + Buat pull request ke repo ini branch `master`
