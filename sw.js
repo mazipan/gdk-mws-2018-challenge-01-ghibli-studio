@@ -2,8 +2,12 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/42ab4ccde1ebdc3f422a.js",
-    "revision": "ab78f312038d0cab35baa075204a07af"
+    "url": "/_nuxt/15ca6b6b8ce515606d5a.js",
+    "revision": "3985774623012c6cc70243b9555e16aa"
+  },
+  {
+    "url": "/_nuxt/67f3eecfeeaaba40414e.js",
+    "revision": "4f8063c379fc76693fcedcbab332c03f"
   },
   {
     "url": "/_nuxt/6ca024707b946e358bfb.js",
@@ -16,10 +20,6 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/_nuxt/c403ac8a933c9723b39d.js",
     "revision": "378d0bde99e7c00be4d5671a0d1ecaf6"
-  },
-  {
-    "url": "/_nuxt/ea22d32a99d35fef4f2b.js",
-    "revision": "07099f7e1180a885379778ad72112e56"
   }
 ], {
   "cacheId": "ghibli-apps",
