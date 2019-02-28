@@ -12,5 +12,12 @@ module.exports = [
     github_link: 'https://github.com/dennydap/mws-ghibli-openapi',
     demo_link: 'http://dennydap.github.io/mws-ghibli-openapi',
     technologies: ['React']
+  },
+  {
+    name: 'Muslim Al Fatih',
+    avatar: 'https://avatars0.githubusercontent.com/u/8471024?s=460&v=4',
+    github_link: 'https://github.com/muslimalfatih/ghibli-studio',
+    demo_link: 'https://muslimalfatih.github.io/ghibli-studio/',
+    technologies: ['React', 'Redux']
   }
 ];
