@@ -4,3 +4,6 @@
 [submodule "IrfanMaulana"]
 	path = IrfanMaulana
 	url = https://github.com/mazipan/ghibli-fans
+[submodule "MuslimAlFatih"]
+	path = MuslimAlFatih
+	url = https://github.com/muslimalfatih/ghibli-studio
