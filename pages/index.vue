@@ -7,7 +7,7 @@
             <img class="is-rounded" :src="item.avatar">
           </figure>
         </div>
-        <div class="level-right">
+        <div class="level-right has-text-right">
           <div>
             <h2 class="subtitle">{{ item.name }}</h2>
             <div>
