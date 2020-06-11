@@ -8,7 +8,7 @@ Repo ini merupakan kumpulan dari hasil karya teman-teman dalam menerima **Challe
 
 ## Live Webpage
 
-[https://ghibli-apps.netlify.com/](https://ghibli-apps.netlify.com/)
+[https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/](https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/)
 
 ## Bagaimana menambahkan file kalian?
 
