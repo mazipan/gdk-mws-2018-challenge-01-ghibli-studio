@@ -1,25 +1,25 @@
-importScripts('/_nuxt/workbox.4c4f5ca6.js')
+importScripts('https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/7b030d6f9b6e98a5a195.js",
+    "url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/4e527bbd0cc1f2048d9c.js",
+    "revision": "8b2ca2848cd5a0286de33ac180f700f3"
+  },
+  {
+    "url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/7b030d6f9b6e98a5a195.js",
     "revision": "066778e6e5717f72705caae416b71a71"
   },
   {
-    "url": "/_nuxt/a13df40e88a027585202.js",
-    "revision": "9efc75e1d60a2cb9c9f0cdd3cebd1afe"
+    "url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/7d4140e12150702bad4e.js",
+    "revision": "79cd968cecb98ce86ba8e3ae49dfa473"
   },
   {
-    "url": "/_nuxt/bb47a0fb06f714b832b1.js",
+    "url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/bb47a0fb06f714b832b1.js",
     "revision": "b98281d776c42b33428a396bf31ea3e3"
   },
   {
-    "url": "/_nuxt/c403ac8a933c9723b39d.js",
+    "url": "https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/c403ac8a933c9723b39d.js",
     "revision": "378d0bde99e7c00be4d5671a0d1ecaf6"
-  },
-  {
-    "url": "/_nuxt/f2f96d06a753a2253b48.js",
-    "revision": "d3605cab5474e2eb57d8b75c1122a2ce"
   }
 ], {
   "cacheId": "ghibli-apps",
@@ -30,6 +30,6 @@ workbox.precaching.precacheAndRoute([
 workbox.clientsClaim()
 workbox.skipWaiting()
 
-workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
+workbox.routing.registerRoute(new RegExp('https://mazipan.github.io/gdk-mws-2018-challenge-01-ghibli-studio/.*'), workbox.strategies.cacheFirst({}), 'GET')
 
 workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
