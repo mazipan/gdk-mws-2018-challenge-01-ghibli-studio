@@ -1,6 +1,7 @@
 const pkg = require('./package')
 const title = 'Ghibli Apps'
-const publicUrl = 'https://ghibli-apps.netlify.com/'
+const prefix = 'gdk-mws-2018-challenge-01-ghibli-studio'
+const publicUrl = 'https:/mazipan.github.io/'
 const iconUrl = `${publicUrl}icon.png`
 
 module.exports = {
@@ -19,13 +20,13 @@ module.exports = {
       { hid: 'og:image', property: 'og:image', content: iconUrl },
       { hid: 'og:title', property: 'og:title', content: title },
       { hid: 'og:description', property: 'og:description', content: pkg.description },
-      { hid: 'og:url', property: 'og:url', content: publicUrl },
+      { hid: 'og:url', property: 'og:url', content: `${publicUrl}${prefix}` },
 
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:image:src', name: 'twitter:image:src', content: iconUrl },
       { hid: 'twitter:title', name: 'twitter:title', content: title },
       { hid: 'twitter:description', name: 'twitter:description', content: pkg.description },
-      { hid: 'twitter:url', name: 'twitter:url', content: publicUrl },
+      { hid: 'twitter:url', name: 'twitter:url', content: `${publicUrl}${prefix}` },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -77,6 +78,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    publicPath: `${publicUrl}${prefix}`,
     postcss: {
       preset: {
         features: {
@@ -90,5 +92,8 @@ module.exports = {
     extend(config, ctx) {
 
     }
+  },
+  generate: {
+    publicPath: `${publicUrl}${prefix}`,
   }
 }
